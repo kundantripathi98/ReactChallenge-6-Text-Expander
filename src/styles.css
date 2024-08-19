@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 2vw;
+}
+
+.box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: #f7f7f7;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+}
+
+p {
+  display: inline-block;
+  cursor: pointer;
+}
+
+h5 {
+  font-size: 1.5vw;
+  line-height: 140%;
+}
